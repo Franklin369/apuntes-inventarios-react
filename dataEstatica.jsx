@@ -36,6 +36,11 @@ export const LinksArray = [
     icon: <v.iconocategorias />,
     to: "/kardex",
   },
+  {
+    label: "Reportes",
+    icon: <v.iconoreportes />,
+    to: "/reportes",
+  },
  
 ];
 export const SecondarylinksArray = [
