@@ -102,7 +102,6 @@ export const v = {
   iconobars: BsBarChartLine,
   iconocalculadora: AiOutlineCalculator,
   iconocheck: BsCalendarCheck,
-  imagenfondo: fondo,
   colorSecundario: `#DAC1FF`,
   iconoflechaderecha:IoIosArrowForward,
   colorselector:"#BF94FF",
