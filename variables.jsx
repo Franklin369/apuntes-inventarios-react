@@ -23,7 +23,6 @@ import { BsBarChartLine } from "react-icons/bs";
 import { AiOutlineCalculator } from "react-icons/ai";
 import { BsCalendarCheck } from "react-icons/bs";
 import {IoIosArrowForward} from "react-icons/io"
-import fondo from "../assets/fondo1.svg";
 import {GrFormPrevious,GrCaretNext} from "react-icons/gr"
 import {MdOutlineBorderAll} from "react-icons/md"
 import { MdAlternateEmail } from "react-icons/md";
