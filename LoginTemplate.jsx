@@ -33,7 +33,7 @@ export function LoginTemplate() {
   }
 
   return (
-    <Container imgfondo={v.imagenfondo}>
+    <Container>
       <div className="contentLogo">
         <img src={logo}></img>
         <span>StockPRO</span>
