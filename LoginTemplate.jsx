@@ -28,7 +28,7 @@ export function LoginTemplate() {
     if (response) {
       navigate("/");
     } else {
-      setStateInicio(!stateInicio);
+      setStateInicio(true);
     }
   }
 
