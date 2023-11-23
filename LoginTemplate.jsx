@@ -1,13 +1,6 @@
 import styled from "styled-components";
-import {
-  Btnsave,
-  v,
-  useAuthStore,
-  InputText,
-  FooterLogin,
- 
-} from "../../index";
-import {Device} from "../../styles/breackpoints"
+import { Btnsave, v, useAuthStore, InputText, FooterLogin } from "../../index";
+import { Device } from "../../styles/breackpoints";
 import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
@@ -17,11 +10,9 @@ import { MdOutlineInfo } from "react-icons/md";
 import { ThemeContext } from "../../App";
 export function LoginTemplate() {
   const { setTheme } = useContext(ThemeContext);
-  setTheme("light")
+  setTheme("light");
   const { signInWithEmail } = useAuthStore();
   const [state, setState] = useState(false);
-  const [correo, setCorreo] = useState("");
-  const [pass, setPass] = useState("");
   const [stateInicio, setStateInicio] = useState(false);
   const navigate = useNavigate();
   const {
@@ -67,7 +58,6 @@ export function LoginTemplate() {
             <InputText icono={<v.iconoemail />}>
               <input
                 className="form__field"
-                onChange={(e) => setCorreo(e.target.value)}
                 type="text"
                 placeholder="email"
                 {...register("correo", {
@@ -80,7 +70,6 @@ export function LoginTemplate() {
             <InputText icono={<v.iconopass />}>
               <input
                 className="form__field"
-                onChange={(e) => setPass(e.target.value)}
                 type="password"
                 placeholder="contraseña"
                 {...register("pass", {
@@ -192,7 +181,7 @@ const Container = styled.div`
       color: #fc6c32;
       font-size: 1.5rem;
       font-weight: 700;
-      margin-bottom:30px;
+      margin-bottom: 30px;
     }
     .ayuda {
       position: absolute;
