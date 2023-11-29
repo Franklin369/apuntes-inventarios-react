@@ -7,7 +7,7 @@ const Container = styled.div`
   }
   @media (min-width: ${v.bphomer}) {
     margin: 2em auto;
-    /* max-width: ${v.bphomer}; */
+   
   }
   .responsive-table {
     width: 100%;
